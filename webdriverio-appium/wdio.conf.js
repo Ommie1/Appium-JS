@@ -49,10 +49,12 @@ exports.config = {
   // Sauce Labs platform configurator - a great tool to configure your capabilities:
   // https://saucelabs.com/platform/platform-configurator
   //
+
   capabilities: [
     {
       platformName: "Android",
       "appium:deviceName": "Pixel3-EM",
+      "appium:platformVersion": "11",
       "appium:automationName": "UIAutomator2",
       "appium:app": path.join(
         process.cwd(),
