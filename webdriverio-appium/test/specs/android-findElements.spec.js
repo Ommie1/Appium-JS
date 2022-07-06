@@ -8,10 +8,7 @@
 // xpath syntax: (//tagname[@attribute=value])
 // resource ID: Sometimes its unique
 // $$ : For accessing multiple elements
-
-// describe("Sample", () => {
-//   it("Sample Test", () => {});
-// });
+// //*: its xpath for direct access of attribute
 
 describe("Grabbing element stratgies", () => {
   it("Grab the element by accessiblity ID", async () => {
