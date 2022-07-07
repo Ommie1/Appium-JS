@@ -1,5 +1,5 @@
-const editNoteScreen = require("../screenobjects/android/edit-note.screen");
-const addNoteScreen = require("../screenobjects/android/add-note.screen");
+const editNoteScreen = require("../../screenobjects/android/edit-note.screen");
+const addNoteScreen = require("../../screenobjects/android/add-note.screen");
 
 describe("Working with real app", () => {
   it("Delete a note", async () => {
