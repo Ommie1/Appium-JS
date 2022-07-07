@@ -22,7 +22,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ["./test/specs/**/android-native*.js"],
+  specs: ["./test/specs/**/add*.js"],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -53,13 +53,11 @@ exports.config = {
   capabilities: [
     {
       platformName: "Android",
-      "appium:deviceName": "Pixel3-EM",
-      "appium:platformVersion": "11",
+      "appium:deviceName": "Pixel3-10",
+      "appium:platformVersion": "10",
       "appium:automationName": "UIAutomator2",
-      "appium:app": path.join(
-        process.cwd(),
-        "./app/android/ApiDemos-debug.apk"
-      ),
+      "appium:app": path.join(process.cwd(), "./app/android/Notepad.apk"),
+      "appium:autoGrantPermissions": true,
     },
   ],
   //
