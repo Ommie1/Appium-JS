@@ -1,4 +1,4 @@
-const addNoteScreen = require("../../screenobjects/android/add-note.screen");
+import addNoteScreen from "../../screenobjects/android/add-note.screen";
 
 describe("Working with real app", () => {
   it("Skip the tutorial screen", async () => {

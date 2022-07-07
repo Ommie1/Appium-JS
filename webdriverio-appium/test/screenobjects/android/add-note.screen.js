@@ -38,5 +38,4 @@ class ADDNOTESCREEN {
     await driver.back();
   }
 }
-
-module.exports = new ADDNOTESCREEN();
+export default new ADDNOTESCREEN();

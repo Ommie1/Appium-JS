@@ -1,4 +1,5 @@
-const addNoteScreen = require("./add-note.screen");
+import addNoteScreen from "./add-note.screen";
+
 class EDITNOTESCREEN {
   async skipTutorials() {
     await addNoteScreen.skipBtn.click();
@@ -25,4 +26,4 @@ class EDITNOTESCREEN {
     return $('//*[@text="OK"]');
   }
 }
-module.exports = new EDITNOTESCREEN();
+export default new EDITNOTESCREEN();
