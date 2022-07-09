@@ -1,7 +1,6 @@
 require("dotenv").config();
 const { config } = require("./wdio.shared.conf");
 
-//
 // ============
 // BrowserStack Credentials
 // ============
@@ -14,7 +13,6 @@ config.key = process.env.BROWSERSTACK_KEY;
 // ============
 config.specs = ["./test/specs/android/delete*.js"];
 
-//
 // ============
 // Capabilities
 // ============

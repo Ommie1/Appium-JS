@@ -1,9 +1,11 @@
 var path = require("Path");
-import { config } from "./wdio.shared.conf";
-// const { config } = require("./wdio.shared.config");
+const { config } = require("./wdio.shared.conf");
 
+// Appium port
 config.port = 4723;
+// Specs files
 config.specs = ["./test/specs/android/delete*.js"];
+// android capablities
 config.capabilities = [
   {
     platformName: "Android",
@@ -14,7 +16,7 @@ config.capabilities = [
     "appium:autoGrantPermissions": true,
   },
 ];
+// Service
 config.services["appium"];
 
-// exports.config = config;
-export { config };
+exports.config = config;
