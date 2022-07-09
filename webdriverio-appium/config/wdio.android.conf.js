@@ -4,7 +4,7 @@ const { config } = require("./wdio.shared.conf");
 // Appium port
 config.port = 4723;
 // Specs files
-config.specs = ["./test/specs/android/delete*.js"];
+config.specs = ["./test/specs/android/add*.js"];
 // android capablities
 config.capabilities = [
   {
