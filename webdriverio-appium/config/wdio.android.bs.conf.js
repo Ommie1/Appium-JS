@@ -11,7 +11,7 @@ config.key = process.env.BROWSERSTACK_KEY;
 // ============
 // Specs
 // ============
-config.specs = ["./test/specs/android/delete*.js"];
+config.specs = ["./test/specs/android/add*.js"];
 
 // ============
 // Capabilities
