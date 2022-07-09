@@ -9,10 +9,13 @@
   "author": "Syed Umair Hassan",
   "license": "ISC",
   "dependencies": {
+    "@wdio/allure-reporter": "^7.0.0",
     "@wdio/cli": "^7.20.5",
     "appium": "^2.0.0-beta.40",
     "dotenv": "^16.0.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "wdio-mochawesome-reporter": "^4.0.0",
+    "wdio-timeline-reporter": "^5.1.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.6",
