@@ -1,2 +1,4 @@
-/webdriverio-appium/node_modules
-/webdriverio-appium/wdio-appium.log
+/node_modules
+/wdio-appium.log
+/.env
+/webdriverio-appium
